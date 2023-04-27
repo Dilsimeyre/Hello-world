@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+ 
+int main(void)
+{
+   int i ;
+ 
+    printf("Informe a sua idade: "); 
+	scanf("%d", &i);
+	
+	if (i>18)
+	{
+		
+		Printf("Parabens, ja pode ser preso!!");
+	}else 
+	{
+		
+		printf("Nenem da mame!!");
+    }
+ 
+   
+ 
+    return(0);
+}
+
